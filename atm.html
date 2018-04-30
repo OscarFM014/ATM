@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cajero automático</title>
+    <style type= "text/css">
+      body
+      {
+        background-color: #383939  ;
+        color: white;
+        font-family: Helvetica;
+      }
+      strong
+      {
+        background-color: #0799D1;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <img src="cajero.gif" />
+    </p>
+    <p>
+      Por favor ponga la cantidad que desea retirar: <input type="number" id="dinero" min = "20" max "7000" step="20" />
+      <input type="button" value= "Extraer" id="extraer" />
+      <input type="button" value= "Reiniciar Sistema" onClick = "location.reload();" />
+    </p>
+    <p id="resultado"></p>
+    <p> El monto máximo que puede retirar es de <strong>$7000</strong>  </p>
+    <script src="caja.js"> </script>
+  </body>
+</html>
