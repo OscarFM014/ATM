@@ -33,7 +33,7 @@ See also the list of [**contributors**](https://github.com/OscarFM014/diversify/
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Acknowledgments 🎁
-+ Thank to my teammates, they help to learn more during the process.
++ Thank to the team of Platzi 💚
 
 
 -Oscar 👨🏻‍💻
